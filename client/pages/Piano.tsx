@@ -1,6 +1,5 @@
 import { useState, useCallback, useEffect } from "react";
 import { useHotkeys } from "react-hotkeys-hook";
-import Navigation from "@/components/ui/navigation";
 import PianoKey from "@/components/ui/piano-key";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -129,8 +128,6 @@ const Piano = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-      <Navigation />
-
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-8">
